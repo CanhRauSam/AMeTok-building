@@ -3170,8 +3170,9 @@ p {
           justify-content: space-between;
   bottom: 120px;
   position: absolute;
-  content: "";
-  left: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }

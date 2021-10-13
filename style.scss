@@ -2079,7 +2079,7 @@ p{
         display: flex;
         justify-content: space-between;
         bottom: 120px;
-        @include positionChild('left');
+        @include positionCenter('left');
         flex-wrap: wrap;
         @media screen and (max-width: 1240px) {
             bottom: 75px;
